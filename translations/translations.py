@@ -9,15 +9,18 @@ class Translations:
                 "catalog_title": "Character Catalog",
                 "search": "Search",
                 "clear": "Clear",
+                
                 # Language
                 "language_label": "Language:",
                 "ukrainian": "Ukrainian",
                 "english": "English",
+                
                 # Theme
                 "theme_label": "Theme:",
                 "system": "System",
                 "light": "Light",
                 "dark": "Dark",
+                
                 # Search type
                 "search_by": "Search by:",
                 "symbol": "Symbol",
@@ -27,6 +30,7 @@ class Translations:
                 "octal": "OCT",
                 "unicode": "Unicode",
                 "name": "Name",
+                
                 # Table
                 "code": "DEC",
                 "symbol_column": "Symbol",
@@ -35,17 +39,21 @@ class Translations:
                 "binary_column": "BIN",
                 "octal_column": "OCT",
                 "unicode_column": "Unicode",
+                
                 # Messages
                 "invalid_search": "Invalid search query",
                 "not_found": "Character not found",
                 "empty_search": "Enter a value to search",
+                
                 # Control characters
                 "control_character": "Control character",
                 "printable_character": "Printable character",
+                
                 # Tabs
                 "catalog": "Catalog",
                 "settings": "Settings",
                 "about": "About",
+                
                 # About
                 "about_description": (
                     "Character Explorer is an application for viewing "
@@ -65,15 +73,18 @@ class Translations:
                 "catalog_title": "Каталог символів",
                 "search": "Пошук",
                 "clear": "Очистити",
+                
                 # Мова
                 "language_label": "Мова:",
                 "ukrainian": "Українська",
                 "english": "Англійська",
+                
                 # тема
                 "theme_label": "Тема:",
                 "system": "Системна",
                 "light": "Світла",
                 "dark": "Темна",
+                
                 # Тип пошуку
                 "search_by": "Шукати за:",
                 "symbol": "Символ",
@@ -83,6 +94,7 @@ class Translations:
                 "octal": "OCT",
                 "unicode": "Unicode",
                 "name": "Назва",
+                
                 # Таблиця
                 "code": "DEC",
                 "symbol_column": "Символ",
@@ -91,17 +103,21 @@ class Translations:
                 "binary_column": "BIN",
                 "octal_column": "OCT",
                 "unicode_column": "Unicode",
+                
                 # Повідомлення
                 "invalid_search": "Некоректний пошуковий запит",
                 "not_found": "Символ не знайдено",
                 "empty_search": "Введіть значення для пошуку",
+                
                 # Керуючі символи
                 "control_character": "Керуючий символ",
                 "printable_character": "Друкований символ",
+                
                 # Вкладки
                 "catalog": "Каталог",
                 "settings": "Налаштування",
                 "about": "Про програму",
+                
                 # Про програму
                 "about_description": (
                     "Character Explorer — це програма для перегляду "

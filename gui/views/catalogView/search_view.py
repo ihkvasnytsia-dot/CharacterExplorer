@@ -104,16 +104,16 @@ class SearchView(ttk.Frame):
         if search_type == self.translations.t("symbol"):
             self.search_by_symbol()
 
-        elif search_type == self.translations.t("dec"):
+        elif search_type == self.translations.t("decimal"):
             self.search_by_dec()
 
-        elif search_type == self.translations.t("hex"):
+        elif search_type == self.translations.t("hexadecimal"):
             self.search_by_hex()
 
-        elif search_type == self.translations.t("bin"):
+        elif search_type == self.translations.t("binary"):
             self.search_by_bin()
 
-        elif search_type == self.translations.t("oct"):
+        elif search_type == self.translations.t("octal"):
             self.search_by_oct()
 
         elif search_type == self.translations.t("unicode"):
