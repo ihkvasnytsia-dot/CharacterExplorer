@@ -4,23 +4,17 @@ class Translations:
 
         self.translations = {
             "en": {
-                # General
+                # Window
                 "title": "Character Explorer",
+
+                # Tabs
+                "catalog": "Catalog",
+                "settings": "Settings",
+                "about": "About",
+
+                # Catalog tab
                 "catalog_title": "Character Catalog",
-                "search": "Search",
-                "clear": "Clear",
-                
-                # Language
-                "language_label": "Language:",
-                "ukrainian": "Ukrainian",
-                "english": "English",
-                
-                # Theme
-                "theme_label": "Theme:",
-                "system": "System",
-                "light": "Light",
-                "dark": "Dark",
-                
+
                 # Search type
                 "search_by": "Search by:",
                 "symbol": "Symbol",
@@ -30,60 +24,52 @@ class Translations:
                 "octal": "OCT",
                 "unicode": "Unicode",
                 "name": "Name",
-                
+
                 # Table
-                "code": "DEC",
+                "code_column": "DEC",
                 "symbol_column": "Symbol",
                 "name_column": "Name",
                 "hex_column": "HEX",
                 "binary_column": "BIN",
                 "octal_column": "OCT",
                 "unicode_column": "Unicode",
-                
-                # Messages
-                "invalid_search": "Invalid search query",
-                "not_found": "Character not found",
-                "empty_search": "Enter a value to search",
-                
-                # Control characters
-                "control_character": "Control character",
-                "printable_character": "Printable character",
-                
-                # Tabs
-                "catalog": "Catalog",
-                "settings": "Settings",
-                "about": "About",
-                
-                # About
+
+                # Settings tab
+                "settings_title": "Settings",
+
+                # Language
+                "language_label": "Language:",
+                "ukrainian": "Ukrainian",
+                "english": "English",
+
+                # About tab
+                "about_title": "About",
+
+                # About program
                 "about_description": (
-                    "Character Explorer is an application for viewing "
+                    "Character Explorer is a program for viewing "
                     "and exploring ASCII and Unicode characters.\n\n"
-                    "The application allows you to view character codes "
-                    "in decimal, hexadecimal, binary and octal formats.\n\n"
+                    "The program allows you to view character codes "
+                    "in decimal, hexadecimal, binary, and octal number systems.\n\n"
                     "You can also search for characters by code, "
-                    "name or character itself.\n\n"
-                    "The application is designed for learning, practicing "
+                    "name, or the character itself.\n\n"
+                    "The program is designed for learning, practice, "
                     "and exploring character encoding systems.\n\n"
                     "Version: 1.0"
                 ),
             },
+            
             "uk": {
-                # Загальне
+                # Вікно
                 "title": "Character Explorer",
+
+                # Вкладки
+                "catalog": "Каталог",
+                "settings": "Налаштування",
+                "about": "Про програму",
+
+                # Вкладка каталог
                 "catalog_title": "Каталог символів",
-                "search": "Пошук",
-                "clear": "Очистити",
-                
-                # Мова
-                "language_label": "Мова:",
-                "ukrainian": "Українська",
-                "english": "Англійська",
-                
-                # тема
-                "theme_label": "Тема:",
-                "system": "Системна",
-                "light": "Світла",
-                "dark": "Темна",
                 
                 # Тип пошуку
                 "search_by": "Шукати за:",
@@ -94,29 +80,26 @@ class Translations:
                 "octal": "OCT",
                 "unicode": "Unicode",
                 "name": "Назва",
-                
+
                 # Таблиця
-                "code": "DEC",
+                "code_column": "DEC",
                 "symbol_column": "Символ",
                 "name_column": "Назва",
                 "hex_column": "HEX",
                 "binary_column": "BIN",
                 "octal_column": "OCT",
                 "unicode_column": "Unicode",
-                
-                # Повідомлення
-                "invalid_search": "Некоректний пошуковий запит",
-                "not_found": "Символ не знайдено",
-                "empty_search": "Введіть значення для пошуку",
-                
-                # Керуючі символи
-                "control_character": "Керуючий символ",
-                "printable_character": "Друкований символ",
-                
-                # Вкладки
-                "catalog": "Каталог",
-                "settings": "Налаштування",
-                "about": "Про програму",
+
+                # Вкладка налаштування
+                "settings_title": "Налаштування",
+
+                # Мова
+                "language_label": "Мова:",
+                "ukrainian": "Українська",
+                "english": "Англійська",
+
+                # Вкладка про програму
+                "about_title": "Про програму",
                 
                 # Про програму
                 "about_description": (

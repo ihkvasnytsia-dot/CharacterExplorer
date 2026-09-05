@@ -1,7 +1,5 @@
 from tkinter import ttk
 
-from data.ascii_data import ASCIIData
-
 
 class TableView(ttk.Frame):
     def __init__(self, parent, data, translations):
@@ -52,7 +50,7 @@ class TableView(ttk.Frame):
         # Заголовки
         # ==================================================
 
-        self.tree.heading("code", text=self.translations.t("code"))
+        self.tree.heading("code", text=self.translations.t("code_column"))
         self.tree.heading("symbol", text=self.translations.t("symbol_column"))
         self.tree.heading("name", text=self.translations.t("name_column"))
         self.tree.heading("hex", text=self.translations.t("hex_column"))
@@ -221,7 +219,7 @@ class TableView(ttk.Frame):
     def update_language(self):
         self.tree.heading(
             "code",
-            text=self.translations.t("code")
+            text=self.translations.t("code_column")
         )
 
         self.tree.heading(

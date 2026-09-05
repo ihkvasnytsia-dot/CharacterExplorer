@@ -3,9 +3,10 @@ from tkinter import ttk
 
 from data.ascii_data import ASCIIData
 from gui.views.about_view import AboutView
-from gui.views.catalogView.catalog_view import CatalogView
+from gui.views.catalog_view.catalog_view import CatalogView
 from gui.views.settings_view import SettingsView
 from translations.translations import Translations
+from logic.character_search import CharacterSearch
 
 
 class App:
@@ -13,7 +14,10 @@ class App:
 
         self.data = ASCIIData()
         self.translations = Translations()
-
+        
+        self.search_engine = CharacterSearch(
+            self.data.characters
+        )
         self.window = tk.Tk()
 
         self.window.title(self.translations.t("title"))
@@ -46,7 +50,7 @@ class App:
         )
 
         # Вкладки
-        self.catalog_view = CatalogView(self.notebook, self.data, self.translations)
+        self.catalog_view = CatalogView(self.notebook, self.data, self.search_engine, self.translations)
         self.settings_view = SettingsView(self.notebook, self.translations)
         self.about_view = AboutView(self.notebook, self.translations)
 

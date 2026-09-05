@@ -1,14 +1,15 @@
 from tkinter import ttk
 
-from gui.views.catalogView.search_view import SearchView
-from gui.views.catalogView.table_view import TableView
+from gui.views.catalog_view.search_view import SearchView
+from gui.views.catalog_view.table_view import TableView
 
 
 class CatalogView(ttk.Frame):
-    def __init__(self, parent, data, translations):
+    def __init__(self, parent, data, search_engine, translations):
         super().__init__(parent)
         
         self.data = data
+        self.search_engine = search_engine    
         self.translations = translations
 
         self.create_widgets()
@@ -24,7 +25,9 @@ class CatalogView(ttk.Frame):
         self.title.pack(pady=10)
         
         # # Верхня частина — пошук
-        self.search_view = SearchView(self, self.data, self.translations)
+        self.search_view = SearchView(
+            self, self.data, self.search_engine, self.translations
+            )
 
         self.search_view.pack(
             fill="x",
